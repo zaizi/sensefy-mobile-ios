@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1035FED1C6DBEB100BC8415 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FB51C6DBEB100BC8415 /* FontAwesome.ttf */; };
+		A1035FEE1C6DBEB100BC8415 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FB61C6DBEB100BC8415 /* Lato-Bold.ttf */; };
+		A1035FEF1C6DBEB100BC8415 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FB71C6DBEB100BC8415 /* Lato-BoldItalic.ttf */; };
+		A1035FF01C6DBEB100BC8415 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FB81C6DBEB100BC8415 /* Lato-Hairline.ttf */; };
+		A1035FF11C6DBEB100BC8415 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FB91C6DBEB100BC8415 /* Lato-HairlineItalic.ttf */; };
+		A1035FF21C6DBEB100BC8415 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FBA1C6DBEB100BC8415 /* Lato-Italic.ttf */; };
+		A1035FF31C6DBEB100BC8415 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FBB1C6DBEB100BC8415 /* Lato-Light.ttf */; };
+		A1035FF41C6DBEB100BC8415 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FBC1C6DBEB100BC8415 /* Lato-LightItalic.ttf */; };
+		A1035FF51C6DBEB100BC8415 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1035FBD1C6DBEB100BC8415 /* Lato-Regular.ttf */; };
+		A10360011C6DBEB100BC8415 /* MoreResults.m in Sources */ = {isa = PBXBuildFile; fileRef = A1035FDC1C6DBEB100BC8415 /* MoreResults.m */; };
+		A10360021C6DBEB100BC8415 /* SearchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1035FE01C6DBEB100BC8415 /* SearchTableView.m */; };
+		A10360031C6DBEB100BC8415 /* SearchTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1035FE11C6DBEB100BC8415 /* SearchTableView.xib */; };
+		A10360041C6DBEB100BC8415 /* FacetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1035FE51C6DBEB100BC8415 /* FacetTableViewCell.m */; };
+		A10360051C6DBEB100BC8415 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1035FE81C6DBEB100BC8415 /* SearchTableViewCell.m */; };
+		A10360061C6DBEB100BC8415 /* SourceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1035FEB1C6DBEB100BC8415 /* SourceTableViewCell.m */; };
+		A103600E1C6DBFFF00BC8415 /* libPods-Sensefy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A103600D1C6DBFFF00BC8415 /* libPods-Sensefy.a */; };
+		A10360131C6DC15E00BC8415 /* SensefySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10360111C6DC0A700BC8415 /* SensefySDK.framework */; };
+		A103607B1C6DD11100BC8415 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360611C6DD11100BC8415 /* Constants.m */; };
+		A103607C1C6DD11100BC8415 /* SearchFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360641C6DD11100BC8415 /* SearchFilters.m */; };
+		A103607D1C6DD11100BC8415 /* NSMutableArray+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360671C6DD11100BC8415 /* NSMutableArray+Custom.m */; };
+		A103607E1C6DD11100BC8415 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360691C6DD11100BC8415 /* NSString+FontAwesome.m */; };
+		A103607F1C6DD11100BC8415 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A103606B1C6DD11100BC8415 /* Reachability.m */; };
+		A10360801C6DD11100BC8415 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = A103606D1C6DD11100BC8415 /* UIColor+Custom.m */; };
+		A10360811C6DD11100BC8415 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A103606F1C6DD11100BC8415 /* Utility.m */; };
+		A10360821C6DD11100BC8415 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360721C6DD11100BC8415 /* AccountViewController.m */; };
+		A10360831C6DD11100BC8415 /* DocumentPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360741C6DD11100BC8415 /* DocumentPreviewController.m */; };
+		A10360841C6DD11100BC8415 /* FacetSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360761C6DD11100BC8415 /* FacetSelectController.m */; };
+		A10360851C6DD11100BC8415 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360781C6DD11100BC8415 /* SearchViewController.m */; };
+		A10360861C6DD11100BC8415 /* SourceSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A103607A1C6DD11100BC8415 /* SourceSelectController.m */; };
+		A109FDD01C731A7B00B54828 /* SensefySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A109FDCF1C731A7B00B54828 /* SensefySDK.framework */; };
+		A109FDD11C731A7B00B54828 /* SensefySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A109FDCF1C731A7B00B54828 /* SensefySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A148E2C31C76EC09004ABD92 /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A148E2C21C76EC09004ABD92 /* WelcomeView.m */; };
+		A148E2C51C76EC1A004ABD92 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A148E2C41C76EC1A004ABD92 /* WelcomeView.xib */; };
+		A193DFBF1C6DA07B009B4F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DFBE1C6DA07B009B4F99 /* main.m */; };
+		A193DFC21C6DA07B009B4F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DFC11C6DA07B009B4F99 /* AppDelegate.m */; };
+		A193DFC81C6DA07B009B4F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A193DFC61C6DA07B009B4F99 /* Main.storyboard */; };
+		A193DFCA1C6DA07B009B4F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A193DFC91C6DA07B009B4F99 /* Assets.xcassets */; };
+		A193DFCD1C6DA07B009B4F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A193DFCB1C6DA07B009B4F99 /* LaunchScreen.storyboard */; };
+		A193DFD81C6DA07B009B4F99 /* SensefyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DFD71C6DA07B009B4F99 /* SensefyTests.m */; };
+		A1BE6DDF1C71EAFC00EF63EE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BE6DE11C71EAFC00EF63EE /* Localizable.strings */; };
+		A1FBD9A71D07D93D00B38AA7 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1FBD9A61D07D93D00B38AA7 /* Config.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A193DFD41C6DA07B009B4F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A193DFB21C6DA07B009B4F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A193DFB91C6DA07B009B4F99;
+			remoteInfo = Sensefy;
+		};
+		A193DFDF1C6DA07C009B4F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A193DFB21C6DA07B009B4F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A193DFB91C6DA07B009B4F99;
+			remoteInfo = Sensefy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A109FDD21C731A7B00B54828 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A109FDD11C731A7B00B54828 /* SensefySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8575E777F3F5512ABC4466CE /* Pods-Sensefy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensefy.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Sensefy/Pods-Sensefy.debug.xcconfig"; sourceTree = "<group>"; };
+		A1035FB51C6DBEB100BC8415 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A1035FB61C6DBEB100BC8415 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		A1035FB71C6DBEB100BC8415 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1035FB81C6DBEB100BC8415 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		A1035FB91C6DBEB100BC8415 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		A1035FBA1C6DBEB100BC8415 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		A1035FBB1C6DBEB100BC8415 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		A1035FBC1C6DBEB100BC8415 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1035FBD1C6DBEB100BC8415 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		A1035FC11C6DBEB100BC8415 /* Sensefy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sensefy-Prefix.pch"; sourceTree = "<group>"; };
+		A1035FDB1C6DBEB100BC8415 /* MoreResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreResults.h; sourceTree = "<group>"; };
+		A1035FDC1C6DBEB100BC8415 /* MoreResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreResults.m; sourceTree = "<group>"; };
+		A1035FDF1C6DBEB100BC8415 /* SearchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableView.h; sourceTree = "<group>"; };
+		A1035FE01C6DBEB100BC8415 /* SearchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableView.m; sourceTree = "<group>"; };
+		A1035FE11C6DBEB100BC8415 /* SearchTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableView.xib; sourceTree = "<group>"; };
+		A1035FE41C6DBEB100BC8415 /* FacetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacetTableViewCell.h; sourceTree = "<group>"; };
+		A1035FE51C6DBEB100BC8415 /* FacetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacetTableViewCell.m; sourceTree = "<group>"; };
+		A1035FE71C6DBEB100BC8415 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		A1035FE81C6DBEB100BC8415 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		A1035FEA1C6DBEB100BC8415 /* SourceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceTableViewCell.h; sourceTree = "<group>"; };
+		A1035FEB1C6DBEB100BC8415 /* SourceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceTableViewCell.m; sourceTree = "<group>"; };
+		A103600D1C6DBFFF00BC8415 /* libPods-Sensefy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Sensefy.a"; path = "/Users/kjayathilake/Desktop/Final Project/Pods/../build/Debug-iphoneos/libPods-Sensefy.a"; sourceTree = "<absolute>"; };
+		A103600F1C6DC00300BC8415 /* SensefySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensefySDK.framework; path = "../SensefySDK/build/Debug-iphoneos/SensefySDK.framework"; sourceTree = "<group>"; };
+		A10360111C6DC0A700BC8415 /* SensefySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensefySDK.framework; path = "../SensefySDK/build/Debug-iphoneos/SensefySDK.framework"; sourceTree = "<group>"; };
+		A10360601C6DD11100BC8415 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A10360611C6DD11100BC8415 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A10360631C6DD11100BC8415 /* SearchFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFilters.h; sourceTree = "<group>"; };
+		A10360641C6DD11100BC8415 /* SearchFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFilters.m; sourceTree = "<group>"; };
+		A10360661C6DD11100BC8415 /* NSMutableArray+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Custom.h"; sourceTree = "<group>"; };
+		A10360671C6DD11100BC8415 /* NSMutableArray+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Custom.m"; sourceTree = "<group>"; };
+		A10360681C6DD11100BC8415 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		A10360691C6DD11100BC8415 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		A103606A1C6DD11100BC8415 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A103606B1C6DD11100BC8415 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A103606C1C6DD11100BC8415 /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		A103606D1C6DD11100BC8415 /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		A103606E1C6DD11100BC8415 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		A103606F1C6DD11100BC8415 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		A10360711C6DD11100BC8415 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		A10360721C6DD11100BC8415 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		A10360731C6DD11100BC8415 /* DocumentPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentPreviewController.h; sourceTree = "<group>"; };
+		A10360741C6DD11100BC8415 /* DocumentPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentPreviewController.m; sourceTree = "<group>"; };
+		A10360751C6DD11100BC8415 /* FacetSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacetSelectController.h; sourceTree = "<group>"; };
+		A10360761C6DD11100BC8415 /* FacetSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacetSelectController.m; sourceTree = "<group>"; };
+		A10360771C6DD11100BC8415 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A10360781C6DD11100BC8415 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A10360791C6DD11100BC8415 /* SourceSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceSelectController.h; sourceTree = "<group>"; };
+		A103607A1C6DD11100BC8415 /* SourceSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceSelectController.m; sourceTree = "<group>"; };
+		A109FDCF1C731A7B00B54828 /* SensefySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SensefySDK.framework; path = "/Users/kjayathilake/Library/Developer/Xcode/DerivedData/Sensefy-abutebirkeoidsdpkqywsjbsrecm/Build/Products/Debug-iphoneos/SensefySDK.framework"; sourceTree = "<absolute>"; };
+		A148E2C11C76EC09004ABD92 /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		A148E2C21C76EC09004ABD92 /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		A148E2C41C76EC1A004ABD92 /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		A193DFBA1C6DA07B009B4F99 /* Sensefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A193DFBE1C6DA07B009B4F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A193DFC01C6DA07B009B4F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A193DFC11C6DA07B009B4F99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A193DFC71C6DA07B009B4F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A193DFC91C6DA07B009B4F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A193DFCC1C6DA07B009B4F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A193DFCE1C6DA07B009B4F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A193DFD31C6DA07B009B4F99 /* SensefyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensefyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A193DFD71C6DA07B009B4F99 /* SensefyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensefyTests.m; sourceTree = "<group>"; };
+		A193DFD91C6DA07B009B4F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A193DFDE1C6DA07B009B4F99 /* SensefyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensefyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BE6DDD1C71EAC200EF63EE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A1BE6DDE1C71EAC200EF63EE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A1BE6DE01C71EAFC00EF63EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1BE6DE21C71EB0200EF63EE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1FBD9A61D07D93D00B38AA7 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		F4A017A4BB0DCFD8F9A75BF2 /* Pods-Sensefy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensefy.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Sensefy/Pods-Sensefy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A193DFB71C6DA07B009B4F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A109FDD01C731A7B00B54828 /* SensefySDK.framework in Frameworks */,
+				A10360131C6DC15E00BC8415 /* SensefySDK.framework in Frameworks */,
+				A103600E1C6DBFFF00BC8415 /* libPods-Sensefy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DFD01C6DA07B009B4F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DFDB1C6DA07B009B4F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D987E88D768CA587341215B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8575E777F3F5512ABC4466CE /* Pods-Sensefy.debug.xcconfig */,
+				F4A017A4BB0DCFD8F9A75BF2 /* Pods-Sensefy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1035FB41C6DBEB100BC8415 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FB51C6DBEB100BC8415 /* FontAwesome.ttf */,
+				A1035FB61C6DBEB100BC8415 /* Lato-Bold.ttf */,
+				A1035FB71C6DBEB100BC8415 /* Lato-BoldItalic.ttf */,
+				A1035FB81C6DBEB100BC8415 /* Lato-Hairline.ttf */,
+				A1035FB91C6DBEB100BC8415 /* Lato-HairlineItalic.ttf */,
+				A1035FBA1C6DBEB100BC8415 /* Lato-Italic.ttf */,
+				A1035FBB1C6DBEB100BC8415 /* Lato-Light.ttf */,
+				A1035FBC1C6DBEB100BC8415 /* Lato-LightItalic.ttf */,
+				A1035FBD1C6DBEB100BC8415 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1035FD81C6DBEB100BC8415 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A148E2BE1C76EB99004ABD92 /* WelcomeView */,
+				A1035FD91C6DBEB100BC8415 /* CustomLabels */,
+				A1035FDD1C6DBEB100BC8415 /* EmptyTableViews */,
+				A1035FE21C6DBEB100BC8415 /* TableviewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1035FD91C6DBEB100BC8415 /* CustomLabels */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FDA1C6DBEB100BC8415 /* MoreResults */,
+			);
+			path = CustomLabels;
+			sourceTree = "<group>";
+		};
+		A1035FDA1C6DBEB100BC8415 /* MoreResults */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FDB1C6DBEB100BC8415 /* MoreResults.h */,
+				A1035FDC1C6DBEB100BC8415 /* MoreResults.m */,
+			);
+			path = MoreResults;
+			sourceTree = "<group>";
+		};
+		A1035FDD1C6DBEB100BC8415 /* EmptyTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FDE1C6DBEB100BC8415 /* SearchTableView */,
+			);
+			path = EmptyTableViews;
+			sourceTree = "<group>";
+		};
+		A1035FDE1C6DBEB100BC8415 /* SearchTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FDF1C6DBEB100BC8415 /* SearchTableView.h */,
+				A1035FE01C6DBEB100BC8415 /* SearchTableView.m */,
+				A1035FE11C6DBEB100BC8415 /* SearchTableView.xib */,
+			);
+			path = SearchTableView;
+			sourceTree = "<group>";
+		};
+		A1035FE21C6DBEB100BC8415 /* TableviewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FE31C6DBEB100BC8415 /* FacetTableViewCell */,
+				A1035FE61C6DBEB100BC8415 /* SearchTableViewCell */,
+				A1035FE91C6DBEB100BC8415 /* SourceTableViewCell */,
+			);
+			path = TableviewCells;
+			sourceTree = "<group>";
+		};
+		A1035FE31C6DBEB100BC8415 /* FacetTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FE41C6DBEB100BC8415 /* FacetTableViewCell.h */,
+				A1035FE51C6DBEB100BC8415 /* FacetTableViewCell.m */,
+			);
+			path = FacetTableViewCell;
+			sourceTree = "<group>";
+		};
+		A1035FE61C6DBEB100BC8415 /* SearchTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FE71C6DBEB100BC8415 /* SearchTableViewCell.h */,
+				A1035FE81C6DBEB100BC8415 /* SearchTableViewCell.m */,
+			);
+			path = SearchTableViewCell;
+			sourceTree = "<group>";
+		};
+		A1035FE91C6DBEB100BC8415 /* SourceTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1035FEA1C6DBEB100BC8415 /* SourceTableViewCell.h */,
+				A1035FEB1C6DBEB100BC8415 /* SourceTableViewCell.m */,
+			);
+			path = SourceTableViewCell;
+			sourceTree = "<group>";
+		};
+		A103605F1C6DD11100BC8415 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A10360601C6DD11100BC8415 /* Constants.h */,
+				A10360611C6DD11100BC8415 /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A10360621C6DD11100BC8415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A10360631C6DD11100BC8415 /* SearchFilters.h */,
+				A10360641C6DD11100BC8415 /* SearchFilters.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A10360651C6DD11100BC8415 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A10360661C6DD11100BC8415 /* NSMutableArray+Custom.h */,
+				A10360671C6DD11100BC8415 /* NSMutableArray+Custom.m */,
+				A10360681C6DD11100BC8415 /* NSString+FontAwesome.h */,
+				A10360691C6DD11100BC8415 /* NSString+FontAwesome.m */,
+				A103606A1C6DD11100BC8415 /* Reachability.h */,
+				A103606B1C6DD11100BC8415 /* Reachability.m */,
+				A103606C1C6DD11100BC8415 /* UIColor+Custom.h */,
+				A103606D1C6DD11100BC8415 /* UIColor+Custom.m */,
+				A103606E1C6DD11100BC8415 /* Utility.h */,
+				A103606F1C6DD11100BC8415 /* Utility.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A10360701C6DD11100BC8415 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A10360711C6DD11100BC8415 /* AccountViewController.h */,
+				A10360721C6DD11100BC8415 /* AccountViewController.m */,
+				A10360731C6DD11100BC8415 /* DocumentPreviewController.h */,
+				A10360741C6DD11100BC8415 /* DocumentPreviewController.m */,
+				A10360751C6DD11100BC8415 /* FacetSelectController.h */,
+				A10360761C6DD11100BC8415 /* FacetSelectController.m */,
+				A10360771C6DD11100BC8415 /* SearchViewController.h */,
+				A10360781C6DD11100BC8415 /* SearchViewController.m */,
+				A10360791C6DD11100BC8415 /* SourceSelectController.h */,
+				A103607A1C6DD11100BC8415 /* SourceSelectController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A148E2BE1C76EB99004ABD92 /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A148E2C11C76EC09004ABD92 /* WelcomeView.h */,
+				A148E2C21C76EC09004ABD92 /* WelcomeView.m */,
+				A148E2C41C76EC1A004ABD92 /* WelcomeView.xib */,
+			);
+			path = WelcomeView;
+			sourceTree = "<group>";
+		};
+		A193DFB11C6DA07B009B4F99 = {
+			isa = PBXGroup;
+			children = (
+				A109FDCF1C731A7B00B54828 /* SensefySDK.framework */,
+				A193DFBC1C6DA07B009B4F99 /* Sensefy */,
+				A193DFD61C6DA07B009B4F99 /* SensefyTests */,
+				A193DFE11C6DA07C009B4F99 /* SensefyUITests */,
+				A193DFBB1C6DA07B009B4F99 /* Products */,
+				7D987E88D768CA587341215B /* Pods */,
+				BEB610615208A39BBADB3DC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A193DFBB1C6DA07B009B4F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A193DFBA1C6DA07B009B4F99 /* Sensefy.app */,
+				A193DFD31C6DA07B009B4F99 /* SensefyTests.xctest */,
+				A193DFDE1C6DA07B009B4F99 /* SensefyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A193DFBC1C6DA07B009B4F99 /* Sensefy */ = {
+			isa = PBXGroup;
+			children = (
+				A103605F1C6DD11100BC8415 /* Constants */,
+				A10360621C6DD11100BC8415 /* Model */,
+				A10360651C6DD11100BC8415 /* Util */,
+				A10360701C6DD11100BC8415 /* ViewControllers */,
+				A1035FD81C6DBEB100BC8415 /* Views */,
+				A193DFC01C6DA07B009B4F99 /* AppDelegate.h */,
+				A193DFC11C6DA07B009B4F99 /* AppDelegate.m */,
+				A193DFC61C6DA07B009B4F99 /* Main.storyboard */,
+				A193DFCB1C6DA07B009B4F99 /* LaunchScreen.storyboard */,
+				A193DFBD1C6DA07B009B4F99 /* Supporting Files */,
+			);
+			path = Sensefy;
+			sourceTree = "<group>";
+		};
+		A193DFBD1C6DA07B009B4F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A193DFC91C6DA07B009B4F99 /* Assets.xcassets */,
+				A1035FC11C6DBEB100BC8415 /* Sensefy-Prefix.pch */,
+				A193DFCE1C6DA07B009B4F99 /* Info.plist */,
+				A1035FB41C6DBEB100BC8415 /* Fonts */,
+				A193DFBE1C6DA07B009B4F99 /* main.m */,
+				A1BE6DE11C71EAFC00EF63EE /* Localizable.strings */,
+				A1FBD9A61D07D93D00B38AA7 /* Config.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A193DFD61C6DA07B009B4F99 /* SensefyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A193DFD71C6DA07B009B4F99 /* SensefyTests.m */,
+				A193DFD91C6DA07B009B4F99 /* Info.plist */,
+			);
+			path = SensefyTests;
+			sourceTree = "<group>";
+		};
+		A193DFE11C6DA07C009B4F99 /* SensefyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1CBD4731C8D8234005E8566 /* automation-tests */,
+			);
+			path = SensefyUITests;
+			sourceTree = "<group>";
+		};
+		A1CBD4731C8D8234005E8566 /* automation-tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "automation-tests";
+			sourceTree = "<group>";
+		};
+		BEB610615208A39BBADB3DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10360111C6DC0A700BC8415 /* SensefySDK.framework */,
+				A103600F1C6DC00300BC8415 /* SensefySDK.framework */,
+				A103600D1C6DBFFF00BC8415 /* libPods-Sensefy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A193DFB91C6DA07B009B4F99 /* Sensefy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A193DFE71C6DA07C009B4F99 /* Build configuration list for PBXNativeTarget "Sensefy" */;
+			buildPhases = (
+				68A0947E385E54E5BC23514F /* Check Pods Manifest.lock */,
+				A193DFB61C6DA07B009B4F99 /* Sources */,
+				A193DFB71C6DA07B009B4F99 /* Frameworks */,
+				A193DFB81C6DA07B009B4F99 /* Resources */,
+				2DFB1D43AA60754C5A1CD635 /* Embed Pods Frameworks */,
+				657984DD0D317E998CD06B8D /* Copy Pods Resources */,
+				A109FDD21C731A7B00B54828 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensefy;
+			productName = Sensefy;
+			productReference = A193DFBA1C6DA07B009B4F99 /* Sensefy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A193DFD21C6DA07B009B4F99 /* SensefyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A193DFEA1C6DA07C009B4F99 /* Build configuration list for PBXNativeTarget "SensefyTests" */;
+			buildPhases = (
+				A193DFCF1C6DA07B009B4F99 /* Sources */,
+				A193DFD01C6DA07B009B4F99 /* Frameworks */,
+				A193DFD11C6DA07B009B4F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A193DFD51C6DA07B009B4F99 /* PBXTargetDependency */,
+			);
+			name = SensefyTests;
+			productName = SensefyTests;
+			productReference = A193DFD31C6DA07B009B4F99 /* SensefyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A193DFDD1C6DA07B009B4F99 /* SensefyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A193DFED1C6DA07C009B4F99 /* Build configuration list for PBXNativeTarget "SensefyUITests" */;
+			buildPhases = (
+				A193DFDA1C6DA07B009B4F99 /* Sources */,
+				A193DFDB1C6DA07B009B4F99 /* Frameworks */,
+				A193DFDC1C6DA07B009B4F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A193DFE01C6DA07C009B4F99 /* PBXTargetDependency */,
+			);
+			name = SensefyUITests;
+			productName = SensefyUITests;
+			productReference = A193DFDE1C6DA07B009B4F99 /* SensefyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A193DFB21C6DA07B009B4F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zaizi;
+				TargetAttributes = {
+					A193DFB91C6DA07B009B4F99 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5R97MT46U9;
+					};
+					A193DFD21C6DA07B009B4F99 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V37XFY746F;
+						TestTargetID = A193DFB91C6DA07B009B4F99;
+					};
+					A193DFDD1C6DA07B009B4F99 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V37XFY746F;
+						TestTargetID = A193DFB91C6DA07B009B4F99;
+					};
+				};
+			};
+			buildConfigurationList = A193DFB51C6DA07B009B4F99 /* Build configuration list for PBXProject "Sensefy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A193DFB11C6DA07B009B4F99;
+			productRefGroup = A193DFBB1C6DA07B009B4F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A193DFB91C6DA07B009B4F99 /* Sensefy */,
+				A193DFD21C6DA07B009B4F99 /* SensefyTests */,
+				A193DFDD1C6DA07B009B4F99 /* SensefyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A193DFB81C6DA07B009B4F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1035FF41C6DBEB100BC8415 /* Lato-LightItalic.ttf in Resources */,
+				A148E2C51C76EC1A004ABD92 /* WelcomeView.xib in Resources */,
+				A193DFCD1C6DA07B009B4F99 /* LaunchScreen.storyboard in Resources */,
+				A1035FF01C6DBEB100BC8415 /* Lato-Hairline.ttf in Resources */,
+				A1BE6DDF1C71EAFC00EF63EE /* Localizable.strings in Resources */,
+				A10360031C6DBEB100BC8415 /* SearchTableView.xib in Resources */,
+				A1035FF11C6DBEB100BC8415 /* Lato-HairlineItalic.ttf in Resources */,
+				A1035FEE1C6DBEB100BC8415 /* Lato-Bold.ttf in Resources */,
+				A193DFCA1C6DA07B009B4F99 /* Assets.xcassets in Resources */,
+				A1035FF31C6DBEB100BC8415 /* Lato-Light.ttf in Resources */,
+				A1035FF51C6DBEB100BC8415 /* Lato-Regular.ttf in Resources */,
+				A1035FEF1C6DBEB100BC8415 /* Lato-BoldItalic.ttf in Resources */,
+				A1FBD9A71D07D93D00B38AA7 /* Config.plist in Resources */,
+				A193DFC81C6DA07B009B4F99 /* Main.storyboard in Resources */,
+				A1035FF21C6DBEB100BC8415 /* Lato-Italic.ttf in Resources */,
+				A1035FED1C6DBEB100BC8415 /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DFD11C6DA07B009B4F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DFDC1C6DA07B009B4F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DFB1D43AA60754C5A1CD635 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Sensefy/Pods-Sensefy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657984DD0D317E998CD06B8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Sensefy/Pods-Sensefy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A0947E385E54E5BC23514F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A193DFB61C6DA07B009B4F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10360061C6DBEB100BC8415 /* SourceTableViewCell.m in Sources */,
+				A10360861C6DD11100BC8415 /* SourceSelectController.m in Sources */,
+				A193DFC21C6DA07B009B4F99 /* AppDelegate.m in Sources */,
+				A103607D1C6DD11100BC8415 /* NSMutableArray+Custom.m in Sources */,
+				A10360051C6DBEB100BC8415 /* SearchTableViewCell.m in Sources */,
+				A10360851C6DD11100BC8415 /* SearchViewController.m in Sources */,
+				A10360821C6DD11100BC8415 /* AccountViewController.m in Sources */,
+				A10360811C6DD11100BC8415 /* Utility.m in Sources */,
+				A10360801C6DD11100BC8415 /* UIColor+Custom.m in Sources */,
+				A103607E1C6DD11100BC8415 /* NSString+FontAwesome.m in Sources */,
+				A103607B1C6DD11100BC8415 /* Constants.m in Sources */,
+				A10360841C6DD11100BC8415 /* FacetSelectController.m in Sources */,
+				A10360021C6DBEB100BC8415 /* SearchTableView.m in Sources */,
+				A103607C1C6DD11100BC8415 /* SearchFilters.m in Sources */,
+				A10360831C6DD11100BC8415 /* DocumentPreviewController.m in Sources */,
+				A148E2C31C76EC09004ABD92 /* WelcomeView.m in Sources */,
+				A193DFBF1C6DA07B009B4F99 /* main.m in Sources */,
+				A10360011C6DBEB100BC8415 /* MoreResults.m in Sources */,
+				A103607F1C6DD11100BC8415 /* Reachability.m in Sources */,
+				A10360041C6DBEB100BC8415 /* FacetTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DFCF1C6DA07B009B4F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A193DFD81C6DA07B009B4F99 /* SensefyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DFDA1C6DA07B009B4F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A193DFD51C6DA07B009B4F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A193DFB91C6DA07B009B4F99 /* Sensefy */;
+			targetProxy = A193DFD41C6DA07B009B4F99 /* PBXContainerItemProxy */;
+		};
+		A193DFE01C6DA07C009B4F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A193DFB91C6DA07B009B4F99 /* Sensefy */;
+			targetProxy = A193DFDF1C6DA07C009B4F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A193DFC61C6DA07B009B4F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A193DFC71C6DA07B009B4F99 /* Base */,
+				A1BE6DDD1C71EAC200EF63EE /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A193DFCB1C6DA07B009B4F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A193DFCC1C6DA07B009B4F99 /* Base */,
+				A1BE6DDE1C71EAC200EF63EE /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1BE6DE11C71EAFC00EF63EE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BE6DE01C71EAFC00EF63EE /* Base */,
+				A1BE6DE21C71EB0200EF63EE /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A193DFE51C6DA07C009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A193DFE61C6DA07C009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A193DFE81C6DA07C009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8575E777F3F5512ABC4466CE /* Pods-Sensefy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)SDK/build/Debug-iphoneos",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sensefy/Sensefy-Prefix.pch";
+				INFOPLIST_FILE = Sensefy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.Sensefy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5ef1240f-684b-4457-960c-3bc813a2c296";
+			};
+			name = Debug;
+		};
+		A193DFE91C6DA07C009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A017A4BB0DCFD8F9A75BF2 /* Pods-Sensefy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)SDK/build/Debug-iphoneos",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sensefy/Sensefy-Prefix.pch";
+				INFOPLIST_FILE = Sensefy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.Sensefy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5ef1240f-684b-4457-960c-3bc813a2c296";
+			};
+			name = Release;
+		};
+		A193DFEB1C6DA07C009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SensefyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensefy.app/Sensefy";
+			};
+			name = Debug;
+		};
+		A193DFEC1C6DA07C009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SensefyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensefy.app/Sensefy";
+			};
+			name = Release;
+		};
+		A193DFEE1C6DA07C009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SensefyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sensefy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A193DFEF1C6DA07C009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SensefyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sensefy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A193DFB51C6DA07B009B4F99 /* Build configuration list for PBXProject "Sensefy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFE51C6DA07C009B4F99 /* Debug */,
+				A193DFE61C6DA07C009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A193DFE71C6DA07C009B4F99 /* Build configuration list for PBXNativeTarget "Sensefy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFE81C6DA07C009B4F99 /* Debug */,
+				A193DFE91C6DA07C009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A193DFEA1C6DA07C009B4F99 /* Build configuration list for PBXNativeTarget "SensefyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFEB1C6DA07C009B4F99 /* Debug */,
+				A193DFEC1C6DA07C009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A193DFED1C6DA07C009B4F99 /* Build configuration list for PBXNativeTarget "SensefyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFEE1C6DA07C009B4F99 /* Debug */,
+				A193DFEF1C6DA07C009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A193DFB21C6DA07B009B4F99 /* Project object */;
+}

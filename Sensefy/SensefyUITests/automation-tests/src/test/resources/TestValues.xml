@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This file is part of AlfrescoBasicFunctionalityTestingScripts. AlfrescoBasicFunctionalityTestingScripts 
+	is free software: you can redistribute it and/or modify it under the terms 
+	of the GNU General Public License as published by the Free Software Foundation, 
+	either version 3 of the License, or (at your option) any later version. AlfrescoBasicFunctionalityTestingScripts 
+	is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+	without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+	PURPOSE. See the GNU General Public License for more details. You should 
+	have received a copy of the GNU General Public License along with AlfrescoBasicFunctionalityTestingScripts. 
+	If not, see <http://www.gnu.org/licenses/>. -->
+<TestData>
+	<a_sensefymobile_iOS_search>
+		<Test>
+		<searchFile>sample 1</searchFile>
+		<filesearched>sample 1.png</filesearched>
+		<documentTitle>sample 1.png</documentTitle>
+		<documentsource>Alfresco_New</documentsource>
+		<createddate>Thursday, 3 March 2011</createddate>
+		<creator>abeecher</creator>
+		<modifieddate>Thursday, 3 March 2011</modifieddate>
+		<modifier>abeecher</modifier>
+		<language>Tagalog</language>
+		<mimetype>PNG Image</mimetype>
+		<documentsize>184.11 KB</documentsize>
+		</Test>
+	</a_sensefymobile_iOS_search>
+		<b_sensefymobile_iOS_datasource>
+			<Test>
+				<searchFile>sample 1</searchFile>
+			</Test>
+	</b_sensefymobile_iOS_datasource>
+	<c_sensefymobile_iOS_orderby>
+		<Test>
+			<searchFile>sample 1</searchFile>
+			<ascFile>26630157.1075855666484.JavaMail.evans@thyme.txt</ascFile>
+			<descFile>sample 1.png</descFile>
+		</Test>
+	</c_sensefymobile_iOS_orderby>
+	<d_sensefymobile_iOS_sortby>
+		<Test>
+			<searchFile>sample 1</searchFile>
+			<relevanceDoc>sample 1.png</relevanceDoc>
+			<nameDoc>1.jpg</nameDoc>
+			<titleDoc>1.jpg</titleDoc>
+			<created_dateDoc>page.component-1-1.site~simplicity~dashboard.xml</created_dateDoc>
+			<modified_dateDoc>page.component-1-1.site~simplicity~dashboard.xml</modified_dateDoc>
+			<creatorDoc>Project Contract.pdf</creatorDoc>
+			<modifierDoc>sample 3.png</modifierDoc>
+		</Test>
+	</d_sensefymobile_iOS_sortby>
+	<e_sensefymobile_iOS_facets1>
+	<test>
+		<searchFile>sample 1</searchFile>
+		<creatorDoc>1.jpg</creatorDoc>
+		<documentTypeDoc>notify_user_email.ftl.sample</documentTypeDoc>
+		<languageDoc>notify_user_email.ftl.sample</languageDoc>
+		<sizeDoc>sample 1.png</sizeDoc>
+		<lastmodifieddateDoc>page.component-1-1.site~hemasdemopdfs~dashboard.xml</lastmodifieddateDoc>
+		<creationdateDoc>page.component-1-1.site~hemasdemopdfs~dashboard.xml</creationdateDoc>
+		</test>
+	</e_sensefymobile_iOS_facets1>
+	<f_sensefymobile_iOS_facets2>
+	<test>
+		<searchFile>sample 1</searchFile>
+		<creatorDoc>notify_user_email.ftl.sample</creatorDoc>
+		<documentTypeDoc>notify_user_email.ftl.sample</documentTypeDoc>
+		<languageDoc>notify_user_email.ftl.sample</languageDoc>
+	</test>
+	</f_sensefymobile_iOS_facets2>
+	<g_sensefymobile_iOS_facets3>
+	<test>
+		<searchFile>sample 1</searchFile>	
+		<creator_doctype>7040875.1075855779268.JavaMail.evans@thyme.txt</creator_doctype>
+		<creator_language>page.component-2-1.site~simplicity~dashboard.xml</creator_language>
+		<creator_size>1.jpg</creator_size>
+		<creator_modifiedDate>page.component-1-1.site~hemasdemopdfs~dashboard.xml</creator_modifiedDate>
+		<creator_creationDate>xx</creator_creationDate>
+		<doctype_lamguage>notify_user_email.ftl.sample</doctype_lamguage>
+		<doctype_size>notify_user_email.ftl.sample</doctype_size>
+		<doctype_modifiedDate>xzxz</doctype_modifiedDate>
+		<doctype_creationDate>xzxz</doctype_creationDate>
+		<language_size>notify_user_email.ftl.sample</language_size>
+		<language_modifiedDate>zxz</language_modifiedDate>
+		<language_creationDate>xzxz</language_creationDate>
+		<size_modifiedDate>xzxz</size_modifiedDate>
+		<size_creationDate>zxzx</size_creationDate>
+		<modifieddate_cerationDate>zxzx</modifieddate_cerationDate>
+	</test>
+	</g_sensefymobile_iOS_facets3>
+	<h_sensefymobile_iOS_facets4>
+	<test>
+		<searchFile>sample 1</searchFile>
+		<cdl_category>7040875.1075855779268.JavaMail.evans@thyme.txt</cdl_category>
+		<cds_category>7040875.1075855779268.JavaMail.evans@thyme.txt</cds_category>
+		<dls_category>notify_user_email.ftl.sample</dls_category>
+		<cls_category>page.component-1-2.user~admin~dashboard.xml</cls_category>
+		<cdls_category>7040875.1075855779268.JavaMail.evans@thyme.txt</cdls_category>
+	</test>
+	</h_sensefymobile_iOS_facets4>
+	<i_sensefymobile_iOS_openDocument>
+		<test>
+			<searchFile>sample 1</searchFile>
+			<alfresco_username>admin</alfresco_username>
+			<alfresco_password>ulibranxi</alfresco_password>
+			<filename>sample 1.png</filename>
+		</test>
+	</i_sensefymobile_iOS_openDocument>
+		<j_sensefymobile_iOS_loginlogout>
+		<test>
+			<sensefy_username>admin</sensefy_username>
+			<sensefy_password>ulibranxi</sensefy_password>
+		</test>
+	</j_sensefymobile_iOS_loginlogout>
+</TestData>

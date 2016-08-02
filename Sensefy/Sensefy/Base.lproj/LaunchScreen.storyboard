@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Light.ttf">
+            <string>Lato-Light</string>
+        </mutableArray>
+        <mutableArray key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SensefyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="szG-3b-sri">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="mef-Ii-kbF"/>
+                                    <constraint firstAttribute="width" constant="240" id="pGG-va-iYq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensefy Mobile" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="hCh-KK-pQP">
+                                <rect key="frame" x="79.5" y="384" width="441" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="Vc2-GM-r0B"/>
+                                    <constraint firstAttribute="width" constant="441" id="X9s-yw-aHX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="36"/>
+                                <color key="textColor" red="0.12549019610000001" green="0.31372549020000001" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Zaizi. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="f9M-Dv-sje">
+                                <rect key="frame" x="80" y="559" width="441" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="441" id="bVD-ca-t9c"/>
+                                    <constraint firstAttribute="height" constant="21" id="fIt-EK-wao"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="szG-3b-sri" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gn8-M2-3lu"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="f9M-Dv-sje" secondAttribute="bottom" constant="20" id="Vkl-63-Mmn"/>
+                            <constraint firstItem="hCh-KK-pQP" firstAttribute="top" secondItem="szG-3b-sri" secondAttribute="bottom" constant="20" id="ZQD-Ae-biW"/>
+                            <constraint firstItem="f9M-Dv-sje" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="t4y-0V-IIh"/>
+                            <constraint firstItem="hCh-KK-pQP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tic-Vg-anj"/>
+                            <constraint firstItem="szG-3b-sri" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vWe-FF-2Dd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SensefyLogo" width="112" height="81"/>
+    </resources>
+</document>

@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "\\u2611"; ObjectID = "01x-gy-CKL"; */
+"01x-gy-CKL.text" = "\\u2611";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "35D-9j-X7m"; */
+"35D-9j-X7m.text" = "All";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "7bu-Fr-9L5"; */
+"7bu-Fr-9L5.text" = "Author";
+
+/* Class = "UIBarButtonItem"; title = "Open Document"; ObjectID = "9VI-BK-zT8"; */
+"9VI-BK-zT8.title" = "Open Document";
+
+/* Class = "UINavigationItem"; title = "Facets"; ObjectID = "BFC-9S-pkL"; */
+"BFC-9S-pkL.title" = "Facets";
+
+/* Class = "UILabel"; text = "100.00 MB"; ObjectID = "END-5o-nVo"; */
+"END-5o-nVo.text" = "100.00 MB";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "G0u-ej-Vql"; */
+"G0u-ej-Vql.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "GTo-Hl-Bih"; */
+"GTo-Hl-Bih.text" = "100";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Go9-uJ-lfN"; */
+"Go9-uJ-lfN.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gzg-TA-jCx"; */
+"Gzg-TA-jCx.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Data source"; ObjectID = "H02-3P-VXI"; */
+"H02-3P-VXI.title" = "Data source";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "HLY-W6-doL"; */
+"HLY-W6-doL.text" = "More";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Mxe-pu-eWi"; */
+"Mxe-pu-eWi.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NK0-I6-ay9"; */
+"NK0-I6-ay9.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Sensefy"; ObjectID = "PCU-vu-b7z"; */
+"PCU-vu-b7z.normalTitle" = "Sensefy";
+
+/* Class = "UINavigationItem"; title = "Document Details"; ObjectID = "QrI-64-S2L"; */
+"QrI-64-S2L.title" = "Document Details";
+
+/* Class = "UILabel"; text = "Document Title"; ObjectID = "TrK-en-fIB"; */
+"TrK-en-fIB.text" = "Document Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "VBu-ol-6TY"; */
+"VBu-ol-6TY.text" = "Detail";
+
+/* Class = "UILabel"; text = "Source"; ObjectID = "WXn-0e-WRp"; */
+"WXn-0e-WRp.text" = "Source";
+
+/* Class = "UILabel"; text = "\\u2611"; ObjectID = "XVK-Bx-TXA"; */
+"XVK-Bx-TXA.text" = "\\u2611";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "dgV-FP-bfn"; */
+"dgV-FP-bfn.text" = "More";
+
+/* Class = "UILabel"; text = "TI"; ObjectID = "eNh-aa-rwV"; */
+"eNh-aa-rwV.text" = "TI";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "kKb-53-MBa"; */
+"kKb-53-MBa.text" = "Author";
+
+/* Class = "UIBarButtonItem"; title = "Facets"; ObjectID = "knX-z7-LwX"; */
+"knX-z7-LwX.title" = "Facets";
+
+/* Class = "UILabel"; text = "Release for more results"; ObjectID = "ote-PA-AKL"; */
+"ote-PA-AKL.text" = "Release for more results";
+
+/* Class = "UIBarButtonItem"; title = "Facets"; ObjectID = "qGP-VK-yED"; */
+"qGP-VK-yED.title" = "Facets";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "qrI-kG-JRr"; */
+"qrI-kG-JRr.title" = "Back";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "vf7-fn-xis"; */
+"vf7-fn-xis.text" = "User";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "weQ-4v-hX6"; */
+"weQ-4v-hX6.text" = "100";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "wuU-I1-gpX"; */
+"wuU-I1-gpX.text" = "100";

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+            <string>Lato-Bold</string>
+        </mutableArray>
+        <mutableArray key="Lato-Italic.ttf">
+            <string>Lato-Italic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WelcomeView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="00a-Rt-rKq">
+                    <rect key="frame" x="142" y="149" width="317" height="301"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SensefyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fww-Oh-JgB">
+                            <rect key="frame" x="91" y="8" width="134" height="99"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="99" id="9IL-9J-lQ6"/>
+                                <constraint firstAttribute="width" constant="134" id="Sb2-hP-YKi"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Sensefy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRN-7E-MYP">
+                            <rect key="frame" x="8" y="115" width="301" height="42"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="CIM-Lm-shm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="27"/>
+                            <color key="textColor" red="0.12549019610000001" green="0.31372549020000001" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One stop search engine for enterprise search" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUA-By-p9P">
+                            <rect key="frame" x="8" y="165" width="301" height="48"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="fMV-8q-sjj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Italic" family="Lato" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJt-Sp-rUx">
+                            <rect key="frame" x="8" y="253" width="301" height="40"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.12549019610000001" green="0.31372549020000001" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="5Ot-ds-2sL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="18"/>
+                            <state key="normal" title="Log In">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="loginButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="L1p-RM-IRS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="317" id="2zp-hQ-J69"/>
+                        <constraint firstItem="uJt-Sp-rUx" firstAttribute="leading" secondItem="00a-Rt-rKq" secondAttribute="leadingMargin" id="37Y-25-Ey9"/>
+                        <constraint firstItem="fww-Oh-JgB" firstAttribute="top" secondItem="00a-Rt-rKq" secondAttribute="top" constant="8" id="BUD-XY-ZpA"/>
+                        <constraint firstItem="LRN-7E-MYP" firstAttribute="top" secondItem="fww-Oh-JgB" secondAttribute="bottom" constant="8" symbolic="YES" id="CjI-8d-4iP"/>
+                        <constraint firstItem="pUA-By-p9P" firstAttribute="top" secondItem="LRN-7E-MYP" secondAttribute="bottom" constant="8" id="DD0-Bk-3ch"/>
+                        <constraint firstItem="fww-Oh-JgB" firstAttribute="centerX" secondItem="LRN-7E-MYP" secondAttribute="centerX" id="HEA-I8-tli"/>
+                        <constraint firstItem="fww-Oh-JgB" firstAttribute="centerX" secondItem="uJt-Sp-rUx" secondAttribute="centerX" id="JIZ-Ta-uZj"/>
+                        <constraint firstItem="LRN-7E-MYP" firstAttribute="trailing" secondItem="00a-Rt-rKq" secondAttribute="trailingMargin" id="LQ9-lD-bl3"/>
+                        <constraint firstItem="LRN-7E-MYP" firstAttribute="leading" secondItem="00a-Rt-rKq" secondAttribute="leadingMargin" id="M1r-qU-oTh"/>
+                        <constraint firstItem="LRN-7E-MYP" firstAttribute="top" secondItem="fww-Oh-JgB" secondAttribute="bottom" constant="8" id="PeR-ZW-3Gd"/>
+                        <constraint firstItem="uJt-Sp-rUx" firstAttribute="bottom" secondItem="00a-Rt-rKq" secondAttribute="bottomMargin" id="SnZ-FN-KmN"/>
+                        <constraint firstItem="pUA-By-p9P" firstAttribute="trailing" secondItem="00a-Rt-rKq" secondAttribute="trailingMargin" id="TMv-p0-94K"/>
+                        <constraint firstAttribute="height" constant="301" id="TXj-Ki-8T3"/>
+                        <constraint firstItem="pUA-By-p9P" firstAttribute="leading" secondItem="00a-Rt-rKq" secondAttribute="leadingMargin" id="ThS-Mj-a1u"/>
+                        <constraint firstItem="fww-Oh-JgB" firstAttribute="centerX" secondItem="pUA-By-p9P" secondAttribute="centerX" id="U4N-EQ-Z9a"/>
+                        <constraint firstItem="uJt-Sp-rUx" firstAttribute="trailing" secondItem="00a-Rt-rKq" secondAttribute="trailingMargin" id="xD7-FH-tIt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="00a-Rt-rKq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9lz-O6-5ei"/>
+                <constraint firstItem="00a-Rt-rKq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="l3G-ng-GRR"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="SensefyLogo" width="112" height="81"/>
+    </resources>
+</document>

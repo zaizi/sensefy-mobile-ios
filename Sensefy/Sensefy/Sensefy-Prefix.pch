@@ -1,0 +1,26 @@
+//
+//  Sensefy-Prefix.pch
+//  Sensefy
+//
+//  Created by Krishantha Jayathilake  on 1/14/16.
+//  Copyright © 2016 zaizi. All rights reserved.
+//
+
+#ifndef Sensefy_Prefix_pch
+#define Sensefy_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Sensefy_Prefix_pch */
+
+#import <SensefySDK/SensefySDK.h>
+#import "Reachability.h"
+
+#define IS_IPAD ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+//#ifdef UI_USER_INTERFACE_IDIOM
+//    #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+//#else
+//    #define IS_IPAD (false)
+//#endif

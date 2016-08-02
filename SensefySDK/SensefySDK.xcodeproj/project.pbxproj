@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1035FA21C6DBD8B00BC8415 /* SensefySDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A1035F7F1C6DBD8B00BC8415 /* SensefySDK-Prefix.pch */; };
+		A103600C1C6DBFE000BC8415 /* libPods-SensefySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A103600B1C6DBFE000BC8415 /* libPods-SensefySDK.a */; };
+		A103603D1C6DCF8700BC8415 /* SensefyConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360181C6DCF8600BC8415 /* SensefyConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103603E1C6DCF8700BC8415 /* SensefyConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360191C6DCF8600BC8415 /* SensefyConstants.m */; };
+		A103603F1C6DCF8700BC8415 /* AutocompleteResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A103601B1C6DCF8600BC8415 /* AutocompleteResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360401C6DCF8700BC8415 /* AutocompleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A103601C1C6DCF8600BC8415 /* AutocompleteResult.m */; };
+		A10360411C6DCF8700BC8415 /* FacetItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A103601D1C6DCF8600BC8415 /* FacetItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360421C6DCF8700BC8415 /* FacetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A103601E1C6DCF8600BC8415 /* FacetItem.m */; };
+		A10360431C6DCF8700BC8415 /* KeywordSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A103601F1C6DCF8600BC8415 /* KeywordSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360441C6DCF8700BC8415 /* KeywordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360201C6DCF8600BC8415 /* KeywordSearchResult.m */; };
+		A10360451C6DCF8700BC8415 /* ResponseHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360211C6DCF8600BC8415 /* ResponseHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360461C6DCF8700BC8415 /* ResponseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360221C6DCF8600BC8415 /* ResponseHeader.m */; };
+		A10360471C6DCF8700BC8415 /* SearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360231C6DCF8600BC8415 /* SearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360481C6DCF8700BC8415 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360241C6DCF8600BC8415 /* SearchResult.m */; };
+		A10360491C6DCF8700BC8415 /* SensefyAccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360251C6DCF8600BC8415 /* SensefyAccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103604A1C6DCF8700BC8415 /* SensefyAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360261C6DCF8700BC8415 /* SensefyAccessToken.m */; };
+		A103604B1C6DCF8700BC8415 /* SensefyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360271C6DCF8700BC8415 /* SensefyDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103604C1C6DCF8700BC8415 /* SensefyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360281C6DCF8700BC8415 /* SensefyDocument.m */; };
+		A103604D1C6DCF8700BC8415 /* SensefyError.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360291C6DCF8700BC8415 /* SensefyError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103604E1C6DCF8700BC8415 /* SensefyError.m in Sources */ = {isa = PBXBuildFile; fileRef = A103602A1C6DCF8700BC8415 /* SensefyError.m */; };
+		A103604F1C6DCF8700BC8415 /* SensefyFacet.h in Headers */ = {isa = PBXBuildFile; fileRef = A103602B1C6DCF8700BC8415 /* SensefyFacet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360501C6DCF8700BC8415 /* SensefyFacet.m in Sources */ = {isa = PBXBuildFile; fileRef = A103602C1C6DCF8700BC8415 /* SensefyFacet.m */; };
+		A10360511C6DCF8700BC8415 /* SensefyUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A103602D1C6DCF8700BC8415 /* SensefyUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360521C6DCF8700BC8415 /* SensefyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A103602E1C6DCF8700BC8415 /* SensefyUser.m */; };
+		A10360531C6DCF8700BC8415 /* SuggestionsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A103602F1C6DCF8700BC8415 /* SuggestionsResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360541C6DCF8700BC8415 /* SuggestionsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360301C6DCF8700BC8415 /* SuggestionsResult.m */; };
+		A10360551C6DCF8700BC8415 /* SensefyDocumentService.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360321C6DCF8700BC8415 /* SensefyDocumentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360561C6DCF8700BC8415 /* SensefyDocumentService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360331C6DCF8700BC8415 /* SensefyDocumentService.m */; };
+		A10360571C6DCF8700BC8415 /* SensefyLoginService.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360341C6DCF8700BC8415 /* SensefyLoginService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10360581C6DCF8700BC8415 /* SensefyLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360351C6DCF8700BC8415 /* SensefyLoginService.m */; };
+		A10360591C6DCF8700BC8415 /* SensefySearchService.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360361C6DCF8700BC8415 /* SensefySearchService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103605A1C6DCF8700BC8415 /* SensefySearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360371C6DCF8700BC8415 /* SensefySearchService.m */; };
+		A103605B1C6DCF8700BC8415 /* SensefyUserService.h in Headers */ = {isa = PBXBuildFile; fileRef = A10360381C6DCF8700BC8415 /* SensefyUserService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103605C1C6DCF8700BC8415 /* SensefyUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A10360391C6DCF8700BC8415 /* SensefyUserService.m */; };
+		A103605D1C6DCF8700BC8415 /* SensefyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A103603B1C6DCF8700BC8415 /* SensefyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A103605E1C6DCF8700BC8415 /* SensefyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A103603C1C6DCF8700BC8415 /* SensefyUtils.m */; };
+		A193DF9B1C6DA029009B4F99 /* SensefySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A193DF9A1C6DA029009B4F99 /* SensefySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A193DFA21C6DA029009B4F99 /* SensefySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193DF971C6DA029009B4F99 /* SensefySDK.framework */; };
+		A193DFA71C6DA029009B4F99 /* SensefySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DFA61C6DA029009B4F99 /* SensefySDKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A193DFA31C6DA029009B4F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A193DF8E1C6DA029009B4F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A193DF961C6DA029009B4F99;
+			remoteInfo = SensefySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47BF2A93191B5F3D9853B64C /* Pods-SensefySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensefySDK.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SensefySDK/Pods-SensefySDK.release.xcconfig"; sourceTree = "<group>"; };
+		A1035F7F1C6DBD8B00BC8415 /* SensefySDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SensefySDK-Prefix.pch"; sourceTree = "<group>"; };
+		A10360071C6DBF9700BC8415 /* libPods-Sensefy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Sensefy.a"; path = "/Users/kjayathilake/Desktop/Final Project/Pods/../build/Debug-iphoneos/libPods-Sensefy.a"; sourceTree = "<absolute>"; };
+		A10360091C6DBFB700BC8415 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "/Users/kjayathilake/Desktop/Final Project/Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<absolute>"; };
+		A103600B1C6DBFE000BC8415 /* libPods-SensefySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SensefySDK.a"; path = "/Users/kjayathilake/Desktop/Final Project/Pods/../build/Debug-iphoneos/libPods-SensefySDK.a"; sourceTree = "<absolute>"; };
+		A10360181C6DCF8600BC8415 /* SensefyConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyConstants.h; sourceTree = "<group>"; };
+		A10360191C6DCF8600BC8415 /* SensefyConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyConstants.m; sourceTree = "<group>"; };
+		A103601B1C6DCF8600BC8415 /* AutocompleteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteResult.h; sourceTree = "<group>"; };
+		A103601C1C6DCF8600BC8415 /* AutocompleteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteResult.m; sourceTree = "<group>"; };
+		A103601D1C6DCF8600BC8415 /* FacetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacetItem.h; sourceTree = "<group>"; };
+		A103601E1C6DCF8600BC8415 /* FacetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacetItem.m; sourceTree = "<group>"; };
+		A103601F1C6DCF8600BC8415 /* KeywordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeywordSearchResult.h; sourceTree = "<group>"; };
+		A10360201C6DCF8600BC8415 /* KeywordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeywordSearchResult.m; sourceTree = "<group>"; };
+		A10360211C6DCF8600BC8415 /* ResponseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseHeader.h; sourceTree = "<group>"; };
+		A10360221C6DCF8600BC8415 /* ResponseHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseHeader.m; sourceTree = "<group>"; };
+		A10360231C6DCF8600BC8415 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		A10360241C6DCF8600BC8415 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
+		A10360251C6DCF8600BC8415 /* SensefyAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyAccessToken.h; sourceTree = "<group>"; };
+		A10360261C6DCF8700BC8415 /* SensefyAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyAccessToken.m; sourceTree = "<group>"; };
+		A10360271C6DCF8700BC8415 /* SensefyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyDocument.h; sourceTree = "<group>"; };
+		A10360281C6DCF8700BC8415 /* SensefyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyDocument.m; sourceTree = "<group>"; };
+		A10360291C6DCF8700BC8415 /* SensefyError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyError.h; sourceTree = "<group>"; };
+		A103602A1C6DCF8700BC8415 /* SensefyError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyError.m; sourceTree = "<group>"; };
+		A103602B1C6DCF8700BC8415 /* SensefyFacet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyFacet.h; sourceTree = "<group>"; };
+		A103602C1C6DCF8700BC8415 /* SensefyFacet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyFacet.m; sourceTree = "<group>"; };
+		A103602D1C6DCF8700BC8415 /* SensefyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyUser.h; sourceTree = "<group>"; };
+		A103602E1C6DCF8700BC8415 /* SensefyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyUser.m; sourceTree = "<group>"; };
+		A103602F1C6DCF8700BC8415 /* SuggestionsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionsResult.h; sourceTree = "<group>"; };
+		A10360301C6DCF8700BC8415 /* SuggestionsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionsResult.m; sourceTree = "<group>"; };
+		A10360321C6DCF8700BC8415 /* SensefyDocumentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyDocumentService.h; sourceTree = "<group>"; };
+		A10360331C6DCF8700BC8415 /* SensefyDocumentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyDocumentService.m; sourceTree = "<group>"; };
+		A10360341C6DCF8700BC8415 /* SensefyLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyLoginService.h; sourceTree = "<group>"; };
+		A10360351C6DCF8700BC8415 /* SensefyLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyLoginService.m; sourceTree = "<group>"; };
+		A10360361C6DCF8700BC8415 /* SensefySearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefySearchService.h; sourceTree = "<group>"; };
+		A10360371C6DCF8700BC8415 /* SensefySearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefySearchService.m; sourceTree = "<group>"; };
+		A10360381C6DCF8700BC8415 /* SensefyUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyUserService.h; sourceTree = "<group>"; };
+		A10360391C6DCF8700BC8415 /* SensefyUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyUserService.m; sourceTree = "<group>"; };
+		A103603B1C6DCF8700BC8415 /* SensefyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensefyUtils.h; sourceTree = "<group>"; };
+		A103603C1C6DCF8700BC8415 /* SensefyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensefyUtils.m; sourceTree = "<group>"; };
+		A193DF971C6DA029009B4F99 /* SensefySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SensefySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A193DF9A1C6DA029009B4F99 /* SensefySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensefySDK.h; sourceTree = "<group>"; };
+		A193DF9C1C6DA029009B4F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A193DFA11C6DA029009B4F99 /* SensefySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensefySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A193DFA61C6DA029009B4F99 /* SensefySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensefySDKTests.m; sourceTree = "<group>"; };
+		A193DFA81C6DA029009B4F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A076C50EDDBF5EED619C70 /* Pods-SensefySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensefySDK.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SensefySDK/Pods-SensefySDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A193DF931C6DA029009B4F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A103600C1C6DBFE000BC8415 /* libPods-SensefySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DF9E1C6DA029009B4F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A193DFA21C6DA029009B4F99 /* SensefySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA035482A780C8252E7D26A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A076C50EDDBF5EED619C70 /* Pods-SensefySDK.debug.xcconfig */,
+				47BF2A93191B5F3D9853B64C /* Pods-SensefySDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86BE3CA600F5C8486B088FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A103600B1C6DBFE000BC8415 /* libPods-SensefySDK.a */,
+				A10360091C6DBFB700BC8415 /* libAFNetworking.a */,
+				A10360071C6DBF9700BC8415 /* libPods-Sensefy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10360171C6DCF8600BC8415 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A10360181C6DCF8600BC8415 /* SensefyConstants.h */,
+				A10360191C6DCF8600BC8415 /* SensefyConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A103601A1C6DCF8600BC8415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A103601B1C6DCF8600BC8415 /* AutocompleteResult.h */,
+				A103601C1C6DCF8600BC8415 /* AutocompleteResult.m */,
+				A103601D1C6DCF8600BC8415 /* FacetItem.h */,
+				A103601E1C6DCF8600BC8415 /* FacetItem.m */,
+				A103601F1C6DCF8600BC8415 /* KeywordSearchResult.h */,
+				A10360201C6DCF8600BC8415 /* KeywordSearchResult.m */,
+				A10360211C6DCF8600BC8415 /* ResponseHeader.h */,
+				A10360221C6DCF8600BC8415 /* ResponseHeader.m */,
+				A10360231C6DCF8600BC8415 /* SearchResult.h */,
+				A10360241C6DCF8600BC8415 /* SearchResult.m */,
+				A10360251C6DCF8600BC8415 /* SensefyAccessToken.h */,
+				A10360261C6DCF8700BC8415 /* SensefyAccessToken.m */,
+				A10360271C6DCF8700BC8415 /* SensefyDocument.h */,
+				A10360281C6DCF8700BC8415 /* SensefyDocument.m */,
+				A10360291C6DCF8700BC8415 /* SensefyError.h */,
+				A103602A1C6DCF8700BC8415 /* SensefyError.m */,
+				A103602B1C6DCF8700BC8415 /* SensefyFacet.h */,
+				A103602C1C6DCF8700BC8415 /* SensefyFacet.m */,
+				A103602D1C6DCF8700BC8415 /* SensefyUser.h */,
+				A103602E1C6DCF8700BC8415 /* SensefyUser.m */,
+				A103602F1C6DCF8700BC8415 /* SuggestionsResult.h */,
+				A10360301C6DCF8700BC8415 /* SuggestionsResult.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A10360311C6DCF8700BC8415 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10360321C6DCF8700BC8415 /* SensefyDocumentService.h */,
+				A10360331C6DCF8700BC8415 /* SensefyDocumentService.m */,
+				A10360341C6DCF8700BC8415 /* SensefyLoginService.h */,
+				A10360351C6DCF8700BC8415 /* SensefyLoginService.m */,
+				A10360361C6DCF8700BC8415 /* SensefySearchService.h */,
+				A10360371C6DCF8700BC8415 /* SensefySearchService.m */,
+				A10360381C6DCF8700BC8415 /* SensefyUserService.h */,
+				A10360391C6DCF8700BC8415 /* SensefyUserService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A103603A1C6DCF8700BC8415 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A103603B1C6DCF8700BC8415 /* SensefyUtils.h */,
+				A103603C1C6DCF8700BC8415 /* SensefyUtils.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A193DF8D1C6DA029009B4F99 = {
+			isa = PBXGroup;
+			children = (
+				A193DF991C6DA029009B4F99 /* SensefySDK */,
+				A193DFA51C6DA029009B4F99 /* SensefySDKTests */,
+				A193DF981C6DA029009B4F99 /* Products */,
+				5CA035482A780C8252E7D26A /* Pods */,
+				86BE3CA600F5C8486B088FD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A193DF981C6DA029009B4F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A193DF971C6DA029009B4F99 /* SensefySDK.framework */,
+				A193DFA11C6DA029009B4F99 /* SensefySDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A193DF991C6DA029009B4F99 /* SensefySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A10360171C6DCF8600BC8415 /* Constants */,
+				A103601A1C6DCF8600BC8415 /* Model */,
+				A10360311C6DCF8700BC8415 /* Services */,
+				A103603A1C6DCF8700BC8415 /* Util */,
+				A1035F7F1C6DBD8B00BC8415 /* SensefySDK-Prefix.pch */,
+				A193DF9A1C6DA029009B4F99 /* SensefySDK.h */,
+				A193DF9C1C6DA029009B4F99 /* Info.plist */,
+			);
+			path = SensefySDK;
+			sourceTree = "<group>";
+		};
+		A193DFA51C6DA029009B4F99 /* SensefySDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A193DFA61C6DA029009B4F99 /* SensefySDKTests.m */,
+				A193DFA81C6DA029009B4F99 /* Info.plist */,
+			);
+			path = SensefySDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A193DF941C6DA029009B4F99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A103604F1C6DCF8700BC8415 /* SensefyFacet.h in Headers */,
+				A10360591C6DCF8700BC8415 /* SensefySearchService.h in Headers */,
+				A10360411C6DCF8700BC8415 /* FacetItem.h in Headers */,
+				A10360571C6DCF8700BC8415 /* SensefyLoginService.h in Headers */,
+				A10360471C6DCF8700BC8415 /* SearchResult.h in Headers */,
+				A10360511C6DCF8700BC8415 /* SensefyUser.h in Headers */,
+				A10360551C6DCF8700BC8415 /* SensefyDocumentService.h in Headers */,
+				A103605D1C6DCF8700BC8415 /* SensefyUtils.h in Headers */,
+				A10360491C6DCF8700BC8415 /* SensefyAccessToken.h in Headers */,
+				A193DF9B1C6DA029009B4F99 /* SensefySDK.h in Headers */,
+				A103605B1C6DCF8700BC8415 /* SensefyUserService.h in Headers */,
+				A10360451C6DCF8700BC8415 /* ResponseHeader.h in Headers */,
+				A10360531C6DCF8700BC8415 /* SuggestionsResult.h in Headers */,
+				A103603D1C6DCF8700BC8415 /* SensefyConstants.h in Headers */,
+				A103603F1C6DCF8700BC8415 /* AutocompleteResult.h in Headers */,
+				A10360431C6DCF8700BC8415 /* KeywordSearchResult.h in Headers */,
+				A103604B1C6DCF8700BC8415 /* SensefyDocument.h in Headers */,
+				A103604D1C6DCF8700BC8415 /* SensefyError.h in Headers */,
+				A1035FA21C6DBD8B00BC8415 /* SensefySDK-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A193DF961C6DA029009B4F99 /* SensefySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A193DFAB1C6DA029009B4F99 /* Build configuration list for PBXNativeTarget "SensefySDK" */;
+			buildPhases = (
+				80EDF5399308AA15FB4A5038 /* Check Pods Manifest.lock */,
+				A193DF921C6DA029009B4F99 /* Sources */,
+				A193DF931C6DA029009B4F99 /* Frameworks */,
+				A193DF941C6DA029009B4F99 /* Headers */,
+				A193DF951C6DA029009B4F99 /* Resources */,
+				46546E80E841564A53775BD8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensefySDK;
+			productName = SensefySDK;
+			productReference = A193DF971C6DA029009B4F99 /* SensefySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A193DFA01C6DA029009B4F99 /* SensefySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A193DFAE1C6DA029009B4F99 /* Build configuration list for PBXNativeTarget "SensefySDKTests" */;
+			buildPhases = (
+				A193DF9D1C6DA029009B4F99 /* Sources */,
+				A193DF9E1C6DA029009B4F99 /* Frameworks */,
+				A193DF9F1C6DA029009B4F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A193DFA41C6DA029009B4F99 /* PBXTargetDependency */,
+			);
+			name = SensefySDKTests;
+			productName = SensefySDKTests;
+			productReference = A193DFA11C6DA029009B4F99 /* SensefySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A193DF8E1C6DA029009B4F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zaizi;
+				TargetAttributes = {
+					A193DF961C6DA029009B4F99 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5R97MT46U9;
+					};
+					A193DFA01C6DA029009B4F99 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = V37XFY746F;
+					};
+				};
+			};
+			buildConfigurationList = A193DF911C6DA029009B4F99 /* Build configuration list for PBXProject "SensefySDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A193DF8D1C6DA029009B4F99;
+			productRefGroup = A193DF981C6DA029009B4F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A193DF961C6DA029009B4F99 /* SensefySDK */,
+				A193DFA01C6DA029009B4F99 /* SensefySDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A193DF951C6DA029009B4F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DF9F1C6DA029009B4F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46546E80E841564A53775BD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SensefySDK/Pods-SensefySDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80EDF5399308AA15FB4A5038 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A193DF921C6DA029009B4F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A103604C1C6DCF8700BC8415 /* SensefyDocument.m in Sources */,
+				A10360481C6DCF8700BC8415 /* SearchResult.m in Sources */,
+				A10360401C6DCF8700BC8415 /* AutocompleteResult.m in Sources */,
+				A10360501C6DCF8700BC8415 /* SensefyFacet.m in Sources */,
+				A10360541C6DCF8700BC8415 /* SuggestionsResult.m in Sources */,
+				A103603E1C6DCF8700BC8415 /* SensefyConstants.m in Sources */,
+				A103604A1C6DCF8700BC8415 /* SensefyAccessToken.m in Sources */,
+				A10360441C6DCF8700BC8415 /* KeywordSearchResult.m in Sources */,
+				A103605E1C6DCF8700BC8415 /* SensefyUtils.m in Sources */,
+				A10360561C6DCF8700BC8415 /* SensefyDocumentService.m in Sources */,
+				A103605A1C6DCF8700BC8415 /* SensefySearchService.m in Sources */,
+				A10360521C6DCF8700BC8415 /* SensefyUser.m in Sources */,
+				A103604E1C6DCF8700BC8415 /* SensefyError.m in Sources */,
+				A103605C1C6DCF8700BC8415 /* SensefyUserService.m in Sources */,
+				A10360461C6DCF8700BC8415 /* ResponseHeader.m in Sources */,
+				A10360421C6DCF8700BC8415 /* FacetItem.m in Sources */,
+				A10360581C6DCF8700BC8415 /* SensefyLoginService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A193DF9D1C6DA029009B4F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A193DFA71C6DA029009B4F99 /* SensefySDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A193DFA41C6DA029009B4F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A193DF961C6DA029009B4F99 /* SensefySDK */;
+			targetProxy = A193DFA31C6DA029009B4F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A193DFA91C6DA029009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A193DFAA1C6DA029009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A193DFAC1C6DA029009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A076C50EDDBF5EED619C70 /* Pods-SensefySDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/SensefySDK/SensefySDK-Prefix.pch";
+				INFOPLIST_FILE = SensefySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A193DFAD1C6DA029009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BF2A93191B5F3D9853B64C /* Pods-SensefySDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/SensefySDK/SensefySDK-Prefix.pch";
+				INFOPLIST_FILE = SensefySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A193DFAF1C6DA029009B4F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SensefySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A193DFB01C6DA029009B4F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SensefySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaizi.SensefySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A193DF911C6DA029009B4F99 /* Build configuration list for PBXProject "SensefySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFA91C6DA029009B4F99 /* Debug */,
+				A193DFAA1C6DA029009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A193DFAB1C6DA029009B4F99 /* Build configuration list for PBXNativeTarget "SensefySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFAC1C6DA029009B4F99 /* Debug */,
+				A193DFAD1C6DA029009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A193DFAE1C6DA029009B4F99 /* Build configuration list for PBXNativeTarget "SensefySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193DFAF1C6DA029009B4F99 /* Debug */,
+				A193DFB01C6DA029009B4F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A193DF8E1C6DA029009B4F99 /* Project object */;
+}

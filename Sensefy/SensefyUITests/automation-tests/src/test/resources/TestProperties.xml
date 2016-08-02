@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+
+    This file is part of AlfrescoBasicFunctionalityTestingScripts.
+
+    AlfrescoBasicFunctionalityTestingScripts is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    AlfrescoBasicFunctionalityTestingScripts is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with AlfrescoBasicFunctionalityTestingScripts.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<!-- <TestProperties>
+	<Host>http://192.168.1.72:8080</Host>
+	<LoginScreen>http://192.168.1.72:8080/share/page</LoginScreen>
+	<UserProfilePage>http://192.168.1.72:8080/share/page/console/admin-console/users#state=panel%3Dview%26userid%3Dtest</UserProfilePage> 
+	<EditUserProfilePage>http://192.168.1.72:8080/share/page/console/admin-console/users%71state%3Dpanel%3Dupdate%26userid%3Dtest#state=panel%3Dupdate%26userid%3Dtest%26search%3Dtest</EditUserProfilePage>
+	<ChangePasswordPage>http://192.168.1.72:8080/share/page/user/admin/change-password</ChangePasswordPage>
+	<AdmintoolPage>http://192.168.1.72:8080/share/page/console/admin-console/application</AdmintoolPage>	
+	<AdminUserName>admin</AdminUserName>
+	<AdminPassword>admin</AdminPassword>
+	<AdminFirstName>Jtest</AdminFirstName>
+	<AdminLastName>Atest</AdminLastName>
+	<TestUserName>test</TestUserName>
+	<TestPassword>User@123</TestPassword>
+	<InvalidPassword>123456</InvalidPassword>
+	<Browser>Chrome/Safari/IE/Firefox</Browser>
+	<OS>MAC/VISTA/WINDOWS</OS>
+	<Browser>Firefox</Browser>
+	<OS>MAC</OS>
+	<DriverType>SeleniumGrid</DriverType>
+	<DriverType>SeleniumWebDriver</DriverType>
+	<NodeURL>http://192.168.1.26:5568/wd/hub</NodeURL>
+	<ChromeDriverPath>/Users/mketheeswaran/Documents/workspace-sts-3.6.1.RELEASE/ALFSL5.0/chromedriver/</ChromeDriverPath>
+	<ReportPath>/Users/ljayasinghe/Desktop/</ReportPath>
+	<IEDriverPath>smb://192.168.1.89/Users/QA/Downloads/ie/IEDriverServer.exe</IEDriverPath>
+	<DefaultDownloadPath>/Users/ljayasinghe/Downloads</DefaultDownloadPath>
+</TestProperties>
+ -->
+<TestProperties>
+	<Host>http://localhost:8080</Host>
+	<LoginScreen>http://localhost:8080/share/page</LoginScreen>
+	<UserProfilePage>http://localhost:8080/share/page/console/admin-console/users#state=panel%3Dview%26userid%3Dtest</UserProfilePage> 
+	<EditUserProfilePage>http://localhost:8080/share/page/console/admin-console/users%71state%3Dpanel%3Dupdate%26userid%3Dtest#state=panel%3Dupdate%26userid%3Dtest%26search%3Dtest</EditUserProfilePage>
+	<ChangePasswordPage>http://localhost:8080/share/page/user/admin/change-password</ChangePasswordPage>
+	<AdmintoolPage>http://localhost:8080/share/page/console/admin-console/application</AdmintoolPage>	
+	<AdminUserName>admin</AdminUserName>
+	<AdminPassword>admin</AdminPassword>
+	<AdminFirstName>Jtest</AdminFirstName>
+	<AdminLastName>Atest</AdminLastName>
+	<TestUserName>test</TestUserName>
+	<TestPassword>User@123</TestPassword>
+	<InvalidPassword>123456</InvalidPassword>
+	<!-- <Browser>Chrome/Safari/IE/Firefox</Browser>
+	<OS>MAC/VISTA/WINDOWS</OS> -->
+	<!-- <Browser>Firefox</Browser>
+	<OS>MAC</OS> -->
+	<DriverType>SeleniumWebDriver</DriverType>
+	<!--<DriverType>SeleniumWebDriver</DriverType>-->
+	<NodeURL>http://192.168.1.26:5568/wd/hub</NodeURL>
+	<ChromeDriverPath>/Users/mketheeswaran/Documents/workspace-sts-3.6.1.RELEASE/ALFSL5.0/chromedriver/</ChromeDriverPath>
+	
+	<IEDriverPath>smb://192.168.1.89/Users/QA/Downloads/ie/IEDriverServer.exe</IEDriverPath>
+	<DefaultDownloadPath>/Users/mketheeswaran/Downloads</DefaultDownloadPath>
+</TestProperties>
+ 

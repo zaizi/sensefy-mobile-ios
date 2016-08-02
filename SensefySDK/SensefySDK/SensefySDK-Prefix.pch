@@ -1,0 +1,35 @@
+//
+//  SensefySDK-Prefix.pch
+//  Sensefy
+//
+//  Created by Krishantha Jayathilake  on 1/8/16.
+//  Copyright © 2016 zaizi. All rights reserved.
+//
+
+#ifndef SensefySDK_Prefix_pch
+#define SensefySDK_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Availability.h>
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#else
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreServices/CoreServices.h>
+#endif
+
+// If using Core Data, you may also wish to append
+#import <CoreData/CoreData.h>
+
+#endif /* SensefySDK_Prefix_pch */
+
+
+#import <RestKit/RestKit.h>
+#import <FXKeychain/FXKeychain.h>
+#import "SensefyConstants.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <SensefySDK/SensefySDK.h>
+static const int ddLogLevel = DDLogLevelDebug;
