@@ -95,10 +95,13 @@ Creaate a new property list file in your app bundle and name it as Config.plist.
 
 ```sh
 // CONFIGURATIONS
-BASE_URL = "IP ADDRESS OR BASE URL FOR SENSEFY:PORT NUMBER"
+BASE_URL = "IP ADDRESS OR BASE URL FOR SENSEFY:PORT NUMBER" // Ex : localhost:9099
 CLIENT_ID = "CLIENT ID"
 CLIENT_SECRET = "CLIENT SECRET"
 ```
+
+NOTE : 
+To build and run Sensefy locally please use Sensefy develop branch - https://github.com/zaizi/sensefy/tree/develop
 
 Open your AppDelegate.h file. Add following method.
 
@@ -180,6 +183,6 @@ SensefyUser *user = [[SensefyUserService sharedInstance] getUser];
 
 #### Copyright
 
-© Zaizi Limited. Code for this SDK is licensed under the GNU Lesser General Public License (LGPL).
+© Zaizi Limited. Code for this SDK is licensed under the Apache License.
 
 Any trademarks and logos included in these plugins are property of their respective owners and should not be reused, redistributed, modified, repurposed, or otherwise altered or used outside of this SDK.
